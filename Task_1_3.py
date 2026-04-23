@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #----LOAD DATASET------
-df = pd.read_csv("Dataset .csv")
+df = pd.read_csv("Dataset.csv")
 
 # -----COUNT RESTAURANTS IN EACH PRICE RANGE-------
 price_counts = df['Price range'].value_counts().sort_index()
